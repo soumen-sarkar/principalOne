@@ -1,0 +1,255 @@
+@media (min-width: 768px) {
+	body {    
+		padding-top: 112px;
+		font-size: 17px;
+	}
+	h1, h1 a {	
+		font-size: 24px;
+	}
+	h2, h2 a {	
+		font-size: 22px;
+	}
+	h3, h3 a {
+		font-size: 20px;
+	}
+	h4, h4 a {
+		font-size: 19px;
+	}
+	h5, h5 a {
+		font-size: 18px;
+	}
+	h6, h6 a {
+		font-size: 17px;
+	}
+	p, ul, ol {	
+		font-size: 17px;
+		margin: 0 0 30px 0;
+		line-height: 24px;
+	}
+	.btn {
+		display: inline-block;
+		font-size: 16px;
+		padding: 6px 20px;
+	}
+	.navbar-brand {
+		padding: 15px;
+	}
+	/*==Menu==*/
+	#main-menu.navbar-default .navbar-nav {
+		padding-top: 40px;
+	}
+	#main-menu.navbar-default .navbar-nav > li {
+		margin-left: 3px;
+		margin-right: 3px;
+	}
+	#main-menu.navbar-default .navbar-nav > li:last-child {
+		margin-right: 0px;
+	}
+	#main-menu.navbar-default .navbar-nav > li:first-child {
+		margin-left: 0px;
+	}
+	#main-menu.navbar-default .navbar-nav > li > a {
+		font-family: 'ProximaNova-Semibold';
+		color: #303030;
+		text-transform: uppercase;
+		border: 2px solid transparent;
+		padding: 10px 5px;
+		font-size: 14px;
+	}
+	#main-menu.navbar-default .navbar-nav > li.active > a,
+	#main-menu.navbar-default .navbar-nav > li.open > a,
+	#main-menu.navbar-default .navbar-nav > li:hover > a {
+		background-color: transparent;
+		border-color: #d31245;
+		color: #d31245;
+	}
+	/*==Slider==*/
+	#main-slider .item {
+	  height: 522px;
+	} 
+	#main-slider .slider-inner {
+		bottom: 60px;
+	}
+	.carousel-content {
+		padding: 60px 40px;
+	}
+	#main-slider .slider-inner h2 {
+		font-size: 34px;
+		line-height: 40px;
+	}
+	#about img {
+		float: right;
+	}
+	/*==About==*/
+	#about {
+		padding-top: 112px;
+		padding-bottom: 60px;
+	}
+	#about h2 {
+		margin-bottom: 30px;
+	}
+	/*==Services==*/
+	#services {
+		padding-top: 112px;
+		padding-bottom: 60px;
+	}
+	.servicesContext {
+		padding-bottom: 20px;
+	}
+	.services {
+		border-bottom: 7px solid transparent;
+		padding: 40px 15px 20px 15px;
+		min-height: 881px;
+	}	
+	.services h3 {
+		color: #000;
+		display: block;
+		font-weight: bold;
+		letter-spacing: 0.03em;
+		margin-bottom: 10px;
+		padding-top: 0px;
+	}
+	.servicesIcon {
+		display: block;
+		height: 100px;
+		margin-bottom: 30px;
+		margin-right: 0;
+		text-align: center;
+	}
+	.servicesIcon img {
+		max-width: inherit;
+	}
+	/*==Case Studies==*/
+	#caseStudies {
+		padding-top: 112px;
+		padding-bottom: 60px;
+	}
+	#caseStudies h2 {
+		margin-bottom: 30px;
+	}
+	#caseStudies .btn {
+		margin-bottom: 0;
+	}
+	.caseStudiesContext {
+		padding-bottom: 50px;
+	}
+	.caseText {
+		padding: 40px 36px;
+		min-height: 486px;
+	}
+	/*==Partner==*/
+	#partners {
+		padding-top: 112px;		
+	}
+	.partnerContext {
+		padding-bottom: 30px;
+	}
+	.partnersLogo {
+		height: 183px;
+	}
+	.partnersLogo img {
+		max-width: inherit;
+	}
+	.partnersLogo:nth-child(2n+0) {
+		border-right: 1px solid #c5c5c5;
+	}
+	.partnersLogo:nth-child(4n+0) {
+		border-right: none;
+	}
+	/*==Footer==*/
+	.footerTopWide {
+		padding-top: 112px;
+		padding-bottom: 80px;
+	}
+	.footerTop p {
+		background-color: transparent;
+		padding: 0px;
+		font-size: 20px;
+		margin-bottom: 0px;
+	}
+	.contactLocation {
+		margin-bottom: 60px;
+	}
+	.footerBottomWide {
+		padding-top: 36px;
+		padding-bottom: 36px;
+		text-align: left;
+	}
+	.footerBottom .siteBy p {
+		text-align: right;
+	}
+}
+@media (min-width: 992px) {	
+	/*==Menu==*/	
+	#main-menu.navbar-default .navbar-nav > li {
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	#main-menu.navbar-default .navbar-nav > li > a {		
+		padding: 10px 10px;
+		font-size: 18px;
+	}
+	.services {
+		min-height: 840px;
+	}
+	.caseText {
+		min-height: 368px;
+	}    
+}
+@media (min-width: 1200px) {
+	body {    
+		padding-top: 112px;
+		font-size: 18px;
+	}
+	h1, h1 a {	
+		font-size: 30px;
+	}
+	h2, h2 a {	
+		font-size: 28px;
+	}
+	h3, h3 a {
+		font-size: 24px;
+	}
+	h4, h4 a {
+		font-size: 22px;
+	}
+	h5, h5 a {
+		font-size: 20px;
+	}
+	h6, h6 a {
+		font-size: 18px;
+	}
+	p, ul, ol {	
+		font-size: 18px;
+		margin: 0 0 40px 0;
+		line-height: 30px;
+	}
+	.btn {
+		padding: 10px 40px;
+	}
+	/*==Menu==*/
+	#main-menu.navbar-default .navbar-nav {
+		padding-top: 45px;
+	}
+	#main-menu.navbar-default .navbar-nav > li {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	#main-menu.navbar-default .navbar-nav > li > a {		
+		padding: 10px 15px;
+	} 
+	.services {
+		min-height: 663px;
+	}
+	.caseText {
+		min-height: 403px;
+	} 
+}
+@media (min-width: 1340px) {
+  .services {
+		min-height: 633px;
+	}
+  .caseText {
+		min-height: 346px;
+	}
+}
